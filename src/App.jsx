@@ -6,6 +6,7 @@ import GetingInputBox from './code/GetingInputBox'
 import ShowHide from './code/ShowHide'
 import FormHindling from './code/FormHindling'
 import Profile from './code/Profile';
+import FormValidation from './code/FormValidation'
 
 // import './App.css'
 
@@ -22,7 +23,8 @@ const [name, setName] = useState("Gulzar")
     {/* <GetingInputBox /> */}
     {/* <ShowHide /> */}
     {/* <FormHindling /> */}
-    <Profile />
+    {/* <Profile /> */}
+    <FormValidation />
         
 
 
