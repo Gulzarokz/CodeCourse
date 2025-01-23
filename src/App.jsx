@@ -4,6 +4,7 @@ import State11 from './code/State11'
 import Props12 from './code/Props12'
 import GetingInputBox from './code/GetingInputBox'
 import ShowHide from './code/ShowHide'
+import FormHindling from './code/FormHindling'
 // import './App.css'
 
 function App() {
@@ -17,7 +18,8 @@ const [name, setName] = useState("Gulzar")
       {/* <Props12 name={name} email="test@123" address = {{village: "khairmatoo", city: "kohat"}} />
       <button onClick={()=>{setName("Aiza")}}>Update</button> */}
     {/* <GetingInputBox /> */}
-    <ShowHide />
+    {/* <ShowHide /> */}
+    <FormHindling />
 
 
     </>
