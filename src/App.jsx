@@ -5,6 +5,8 @@ import Props12 from './code/Props12'
 import GetingInputBox from './code/GetingInputBox'
 import ShowHide from './code/ShowHide'
 import FormHindling from './code/FormHindling'
+import Profile from './code/Profile';
+
 // import './App.css'
 
 function App() {
@@ -19,7 +21,9 @@ const [name, setName] = useState("Gulzar")
       <button onClick={()=>{setName("Aiza")}}>Update</button> */}
     {/* <GetingInputBox /> */}
     {/* <ShowHide /> */}
-    <FormHindling />
+    {/* <FormHindling /> */}
+    <Profile />
+        
 
 
     </>
